@@ -4,16 +4,48 @@
   "description": "Welcome to my portfolio site! Here I'll showcase a selection of my work.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p webpack server",
+    "dev": "run-p client server",
+    "webpack": "webpack",
+    "client": "webpack --watch",
+    "server": "node server",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sam-thorn/Portfolio-Site.git"
   },
-  "author": "",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "author": "Sam Thorn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sam-thorn/Portfolio-Site/issues"
   },
-  "homepage": "https://github.com/sam-thorn/Portfolio-Site#readme"
+  "homepage": "https://github.com/sam-thorn/Portfolio-Site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "7.9.0",
+    "jest": "^26.6.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
