@@ -4,13 +4,13 @@
   "description": "Welcome to my portfolio site! Here I'll showcase a selection of my work.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p webpack server",
     "dev": "run-p client server",
     "webpack": "webpack",
     "client": "webpack --watch",
     "server": "node server",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest --watch --noStackTrace"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,13 @@
       "@babel/preset-react"
     ],
     "plugins": [
-      "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
+  "eslintConfig": {
+    "ignorePatterns": [
+      "bundle.js"
     ]
   },
   "author": "Sam Thorn",
