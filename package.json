@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Welcome to my portfolio site! Here I'll showcase a selection of my work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-thorn/Portfolio-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-thorn/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/sam-thorn/Portfolio-Site#readme"
+}
