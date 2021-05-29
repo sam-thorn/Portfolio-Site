@@ -1,7 +1,8 @@
 import React from 'react'
-import Footer from './Footer'
 
-// import Nav from './Nav'
+
+import Nav from './Nav'
+import Footer from './Footer'
 // import Home from './Home'
 
 function App () {
@@ -9,9 +10,7 @@ function App () {
     <>
       <div>
         <Nav />
-      </div>
         <h1>Hello Y'all</h1>
-      <div>
         <Footer />
       </div>
     </>
