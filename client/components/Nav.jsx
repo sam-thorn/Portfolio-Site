@@ -3,16 +3,16 @@ import React from 'react'
 function Nav () {
     return (
         <>
-        <div>
-            <div>
+        <div id='nav-container'>
+            <div id='nav-sectionL'>
                 <a href='#'>Work</a>
                 <a href='#'>About</a>
                 <a href='#'>Contact</a>
             </div>
-            <div>
-                <a href='#'><img>GH</img></a>
-                <a href='#'><img>Li</img></a>
-                <a href='#'><img>Mail</img></a>
+            <div id='nav-sectionR'>
+                <a href='#'>GH</a>
+                <a href='#'>Li</a>
+                <a href='#'>Mail</a>
             </div>
         </div>
         </>
