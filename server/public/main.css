@@ -2,16 +2,37 @@ body {
   background-color: #faf8f1;
   color: #0a1520;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: block;
 }
 
-#nav-container {
-    display: flex,
+ul {
+    list-style-type: none;
 }
 
-#nav-sectionL {
-    flex-direction: row,
+.header-container {
+    position: fixed;
+    width: 100%
 }
 
-#nav-sectionR {
-    flex-direction: row-reverse,
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-list-L {
+    justify-content: flex-start;
+}
+
+.nav-list-R {
+    justify-content: flex-end;
+}
+
+footer {
+    postition: relative;
 }

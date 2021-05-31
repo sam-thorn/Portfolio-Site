@@ -2,20 +2,20 @@ import React from 'react'
 
 function Nav () {
     return (
-        <>
-        <div id='nav-container'>
-            <div id='nav-sectionL'>
-                <a href='#'>Work</a>
-                <a href='#'>About</a>
-                <a href='#'>Contact</a>
-            </div>
-            <div id='nav-sectionR'>
-                <a href='#'>GH</a>
-                <a href='#'>Li</a>
-                <a href='#'>Mail</a>
-            </div>
-        </div>
-        </>
+        <header className='header-container'>
+            <nav className='nav-container'>
+                <ul className='nav-list-L'>
+                    <li><a href='#'>Work</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+                <ul className='nav-list-R'>
+                    <li><a href='#'>GH</a></li>
+                    <li><a href='#'>Li</a></li>
+                    <li><a href='#'>Mail</a></li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 
