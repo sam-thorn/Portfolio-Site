@@ -1,6 +1,7 @@
 html,
 body {
-  background-color: #242424;
+  /* background-color: #242424; */
+  background-color: rgb(161, 161, 161);
   color: #f5faff;
   font-family: "Poppins", sans-serif;
   height: 100%;
@@ -71,7 +72,22 @@ a:active {
 
 .intro-container {
   display: flex;
-  flex-direction: column;
+  margin-top: 107px;
+}
+
+.intro-text-container {
+  display: flex;
+}
+
+.intro-image-container {
+  width: 16em;
+  height: 22em;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 footer {

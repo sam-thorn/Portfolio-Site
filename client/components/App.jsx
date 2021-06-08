@@ -9,7 +9,6 @@ library.add(fab, faEnvelope)
 import Nav from './Nav'
 import Footer from './Footer'
 import MainIntro from './MainIntro'
-// import Home from './Home'
 
 function App () {
   return (
