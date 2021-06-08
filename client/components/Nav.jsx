@@ -1,19 +1,20 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Nav () {
     return (
         <header className='header-container'>
             <nav className='nav-container'>
-                <ul className='nav-list-L'>
-                    <li><a href='#'>Work</a></li>
-                    <li><a href='#'>About</a></li>
-                    <li><a href='#'>Contact</a></li>
-                </ul>
-                <ul className='nav-list-R'>
-                    <li><a href='#'>GH</a></li>
-                    <li><a href='#'>Li</a></li>
-                    <li><a href='#'>Mail</a></li>
-                </ul>
+                <div className='nav-list-L'>
+                    <a className='nav-item-L' href='#'>Work</a>
+                    <a className='nav-item-L' href='#'>About</a>
+                    <a className='nav-item-L' href='#'>Contact</a>
+                </div>
+                <div className='nav-list-R'>
+                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon='envelope' /></a>
+                </div>
             </nav>
         </header>
     )

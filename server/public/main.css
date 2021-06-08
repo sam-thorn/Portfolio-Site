@@ -1,38 +1,93 @@
+html,
 body {
-  background-color: #faf8f1;
-  color: #0a1520;
+  background-color: #242424;
+  color: #f5faff;
   font-family: "Poppins", sans-serif;
+  height: 100%;
   margin: 0;
   display: block;
 }
 
-ul {
-    list-style-type: none;
+a:link {
+  color: #f5faff;
+}
+a:visited {
+  color: #f5faff;
+}
+a:hover {
+  color: rgb(252, 246, 198);
+}
+a:active {
+  color: #f5faff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .header-container {
-    position: fixed;
-    width: 100%
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding-top: 3.2em;
+  padding-bottom: 1.2em;
+  background-color: rgb(34, 34, 34);
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 1600px;
-    margin: 0 auto;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .nav-list-L {
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  overflow: visible;
+}
+
+.nav-item-L {
+  padding-right: 3em;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-list-R {
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item-R {
+  padding-left: 3em;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-    postition: relative;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 3.2em;
+  background-color: rgb(34, 34, 34);
+}
+
+.ftr-item {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 1.5em;
 }
