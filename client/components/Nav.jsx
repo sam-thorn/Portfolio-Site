@@ -11,9 +11,9 @@ function Nav () {
                     <a className='nav-item-L' href='#'>Contact</a>
                 </div>
                 <div className='nav-list-R'>
-                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                    <a className='nav-item-R' href='#'><FontAwesomeIcon icon='envelope' /></a>
+                    <a className='nav-item-R' href='https://github.com/sam-thorn'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                    <a className='nav-item-R' href='https://www.linkedin.com/in/sam-thorn-33917a32/'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                    <a className='nav-item-R' href='mailto:spthornnz@gmail.com'><FontAwesomeIcon icon='envelope' /></a>
                 </div>
             </nav>
         </header>
