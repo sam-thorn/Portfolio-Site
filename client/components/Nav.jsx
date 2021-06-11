@@ -6,6 +6,7 @@ function Nav () {
         <header className='header-container'>
             <nav className='nav-container'>
                 <div className='nav-list-L'>
+                    <a className='nav-item-L' href='/'><img src='images/face.png' alt='a cartoon face' style={{height: 70 + 'px'}}/></a>
                     <a className='nav-item-L' href='#'>Work</a>
                     <a className='nav-item-L' href='#'>About</a>
                     <a className='nav-item-L' href='#'>Contact</a>
