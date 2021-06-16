@@ -3,14 +3,13 @@ import React from 'react'
 function MainProjects () {
     return (
         <>
-            <div className='intro-container'>
-                <div className='intro-text-container'>
-                    <h1>Hello! 👋</h1>
-                    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut voluptates obcaecati minus expedita? Labore cum voluptates quaerat autem laborum quasi modi! Dolore expedita assumenda consequuntur nisi commodi eum laborum velit?</h1>
-                </div>     
-                <div className='intro-image-container'>
-                <img src='images/face.png' alt='a cartoon face' style={{height: 470 + 'px'}}/>
-                </div>
+            <div className='projects-container'>
+                <h1 className='project-title'>Work</h1>
+                <a className='project-link' href='#'>
+                    <h1 >Project 1</h1>
+                </a>
+                <a><h1 className='project-link'>Project 2</h1></a>
+                <a><h1 className='project-link'>Project 3</h1></a>
             </div>
         </>
     )
