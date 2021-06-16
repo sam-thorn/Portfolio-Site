@@ -1,7 +1,7 @@
 html,
 body {
   /* background-color: #242424; */
-  background-color: #fff;
+  background-color: rgb(34, 34, 34);
   color: #f5faff;
   font-family: "Poppins", sans-serif;
   height: 100%;
@@ -54,9 +54,30 @@ a:active {
 }
 
 .nav-item-L {
-  padding-right: 3em;
+  display: inline-block;
+  position: relative;
+  margin-right: 3em;
   text-decoration: none;
   font-size: 18px;
+}
+
+.nav-item-L:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  background-color: rgb(252, 246, 198);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item-L:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .nav-list-R {
@@ -82,7 +103,7 @@ a:active {
 }
 
 .intro-text-container {
-  display: flex;
+  /* display: flex; */
   color: cadetblue;
   padding-right: 5em;
 }

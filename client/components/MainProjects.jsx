@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MainIntro () {
+function MainProjects () {
     return (
         <>
             <div className='intro-container'>
@@ -16,4 +16,4 @@ function MainIntro () {
     )
 }
 
-export default MainIntro
+export default MainProjects

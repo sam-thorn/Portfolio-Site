@@ -9,6 +9,7 @@ library.add(fab, faEnvelope)
 import Nav from './Nav'
 import Footer from './Footer'
 import MainIntro from './MainIntro'
+import MainProjects from './MainProjects'
 
 function App () {
   return (
@@ -16,6 +17,7 @@ function App () {
       <div className='app-container'>
         <Nav />      
         <MainIntro />
+        <MainProjects />
         <Footer />     
       </div> 
     </>
