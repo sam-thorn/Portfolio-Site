@@ -6,9 +6,10 @@ function Nav () {
         <header className='header-container'>
             <nav className='nav-container'>
                 <div className='nav-list-L'>
+                    <a className='site-icon' href='#'><img src='images/sam-logo.png' alt='page logo' style={{height: 28 + 'px'}}/></a>
                     <a className='nav-item-L' href='#'>Work</a>
                     <a className='nav-item-L' href='#'>About</a>
-                    <a className='nav-item-L' href='#'>Contact</a>
+                    {/* <a className='nav-item-L' href='#'>Contact</a> */}
                 </div>
                 <div className='nav-list-R'>
                     <a className='nav-item-R' href='https://github.com/sam-thorn'><FontAwesomeIcon icon={['fab', 'github']} /></a>

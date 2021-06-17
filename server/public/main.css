@@ -1,8 +1,8 @@
 html,
 body {
-  /* background-color: #242424; */
-  background-color: rgb(34, 34, 34);
-  color: #f5faff;
+  background-color: #23393a;
+  /* background-color: rgb(34, 34, 34); */
+  color: cadetblue;
   font-family: "Poppins", sans-serif;
   height: 100%;
   margin: 0;
@@ -16,10 +16,10 @@ a:visited {
   color: #f5faff;
 }
 a:hover {
-  color: rgb(252, 246, 198);
+  color: #f5faff;
 }
 a:active {
-  color: #f5faff;
+  color: rgb(252, 246, 198);
 }
 
 .app-container {
@@ -34,7 +34,7 @@ a:active {
   width: 100%;
   padding-top: 3.2em;
   padding-bottom: 1.2em;
-  background-color: rgb(34, 34, 34);
+  background-color: #23393a;
 }
 
 .nav-container {
@@ -44,7 +44,12 @@ a:active {
   width: 90%;
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0 3em 0 3em;
   position: relative;
+}
+
+.site-icon {
+  margin-right: 5em;
 }
 
 .nav-list-L {
@@ -71,7 +76,7 @@ a:active {
   bottom: 0;
   left: 0;
   border-radius: 2px;
-  background-color: #f5faff;
+  background-color: #c5f34d;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -87,16 +92,20 @@ a:active {
 }
 
 .nav-item-R {
-  padding-left: 3em;
+  margin-left: 3em;
   text-decoration: none;
   font-size: 24px;
+}
+
+.nav-item-R:hover {
+  color: #c5f34d;
 }
 
 .intro-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 65vh;
   max-width: 90%;
   margin: 0 auto;
   padding: 3em 7em 3em 7em;
@@ -112,6 +121,7 @@ a:active {
 .intro-image-container {
   /* width: 16em;
   height: 22em; */
+  opacity: 0.8;
 }
 
 .hero-image {
@@ -123,6 +133,7 @@ a:active {
 .projects-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 65vh;
   max-width: 90%;
   margin: 0 auto;
@@ -161,11 +172,15 @@ footer {
   flex-direction: row;
   justify-content: center;
 
-  background-color: rgb(34, 34, 34);
+  background-color: #23393a;
 }
 
 .ftr-item {
   text-decoration: none;
   font-size: 18px;
   padding: 0 1.5em;
+}
+
+.ftr-item:hover {
+  color: #c5f34d;
 }
